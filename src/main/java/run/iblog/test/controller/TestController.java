@@ -11,6 +11,6 @@ public class TestController {
 
     @GetMapping("/iblog")
     public String show() {
-        return "An ultra lightweight blogging system";
+        return "An ultra lightweight blogging system based on springboot";
     }
 }
