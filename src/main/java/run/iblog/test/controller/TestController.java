@@ -11,6 +11,6 @@ public class TestController {
 
     @GetMapping("/iblog")
     public String show() {
-        return "An ultra lightweight blogging system based on springboot : iblog.run and the docs is docs.iblog.run and enable continuous integration and deployment with azure devops.";
+        return "An ultra lightweight blogging system based on springboot : iblog.run and the docs is docs.iblog.run (enable continuous integration and deployment with azure devops)";
     }
 }
