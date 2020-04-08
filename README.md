@@ -3,4 +3,4 @@
 [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/YUbuntu0109/iblog-azure-test.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/YUbuntu0109/iblog-azure-test/context:java)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/YUbuntu0109/iblog-azure-test.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/YUbuntu0109/iblog-azure-test/alerts/)
 
-> a demo springboot project with azure devops，it's used to simulate the testing and deployment of the iblog project in the future .
+> ✨ An ultra lightweight blogging system based on springboot with the detailed docs : https://docs.iblog.run/
