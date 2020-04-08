@@ -1,4 +1,4 @@
-codecov:
+codecov:  # http://docs.codecov.io/docs/codecov-yaml
   require_ci_to_pass: yes
 
 coverage:
