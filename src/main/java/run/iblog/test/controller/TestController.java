@@ -13,5 +13,4 @@ public class TestController {
     public String show(ModelMap modelMap) {
         modelMap.addAttribute("intro", "An ultra lightweight blogging system based on springboot with the detailed docs : https://docs.iblog.run/");
         return "index";
-    }
 }
