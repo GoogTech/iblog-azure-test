@@ -6,16 +6,19 @@
 </head>
 <style>
     #css {
+        height: 40px;
+        padding-top: 18px;
         color: darkorchid;
         font-size: 18px;
         font-style: italic;
         font-family: "Lucida Console";
         text-align: center;
+        background-color: beige;
     }
 </style>
 <body>
-<div class="s">
-    <span id="css" th:text="${intro}"></span>
+<div id="css">
+    <span th:text="${intro}"></span>
 </div>
 </body>
 </html>
