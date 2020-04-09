@@ -10,7 +10,7 @@
         <relativePath/>
     </parent>
     <groupId>run.iblog.test</groupId>
-    <artifactId>iblog</artifactId>
+    <artifactId>iblog-prod</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>iblog</name>
     <description>Demo project for Spring Boot with Azure DevOps</description>
