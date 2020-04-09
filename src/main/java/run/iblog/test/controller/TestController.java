@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller
-@RequestMapping(value = "/test")
+@RequestMapping(value = "/dev")
 public class TestController {
     private String docs = "https://docs.iblog.run/";
 
