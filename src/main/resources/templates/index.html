@@ -5,7 +5,7 @@
     <title>continuous integration and deployment with azure devops</title>
 </head>
 <style>
-    #css {
+    .css {
         height: 40px;
         padding-top: 18px;
         color: darkorchid;
@@ -15,10 +15,16 @@
         text-align: center;
         background-color: beige;
     }
+    .bra {
+        color: mediumseagreen;
+    }
 </style>
 <body>
-<div id="css">
+<div class="css">
     <span th:text="${intro}"></span>
+</div>
+<div class="css">
+    <span class="bra">(the master branch)hosting production version of the iblog project : https://prod.iblog.run</span>
 </div>
 </body>
 </html>
