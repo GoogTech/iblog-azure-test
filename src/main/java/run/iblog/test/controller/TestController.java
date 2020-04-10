@@ -1,16 +1,18 @@
 package run.iblog.test.controller;
 
-
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-@RequestMapping("/test")
+
+@Controller
+@RequestMapping(value = "/dev")
 public class TestController {
+    private String docs = "https://docs.iblog.run/";
 
-    @GetMapping("/iblog")
-    public String show() {
-        return "An ultra lightweight blogging system based on springboot : iblog.run and the docs is docs.iblog.run and enable continuous integration and deployment with azure devops.";
+    @RequestMapping("/iblog")
+    public String show(ModelMap modelMap) {
+        modelMap.addAttribute("intro", "An ultra lightweight blogging system based on springboot with the detailed docs : " + docs);
+        return "index";
     }
 }
